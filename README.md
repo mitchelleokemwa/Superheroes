@@ -1,24 +1,38 @@
-# README
+# Superheroes
+A simple Superheroes Rails REST API that fetches heroes and their powers.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Features
 
-Things you may want to cover:
+.Get list of Superheroes
 
-* Ruby version
+    GET /heroes
 
-* System dependencies
+.Get list of powers
 
-* Configuration
+    GET /powers
 
-* Database creation
+.Get a specific hero
 
-* Database initialization
+     GET /heroes/:id
 
-* How to run the test suite
+.Get a specific power
 
-* Services (job queues, cache servers, search engines, etc.)
+   GET /powers/:id
 
-* Deployment instructions
+.Create a new hero's power
 
-* ...
+POST /hero_powers
+
+.Change a power
+
+   PATCH /powers/:id
+
+# Setup Instructions
+.How to run the application locally on your computer.
+.Open your terminal.
+.Clone the repository
+.Bundle install
+.Run rails server Rails s or Rails server
+
+# Author's Information
+Name: Mitchelle Okemwa 
